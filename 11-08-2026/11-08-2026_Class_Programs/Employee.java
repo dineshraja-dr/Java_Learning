@@ -16,10 +16,10 @@ class Employee {
 	for(Employee e : employees) {
 		System.out.print("Employee Name "+e.name+" Salary "+e.salary+" ");
 		if(e.single == 1) {
-			System.out.println("He is Single ");
+			System.out.println("Eligible to Salary Hike ");
 		}
 		else {
-			System.out.println("He is commited");
+			System.out.println("He is not eligible");
 		}
 	}
 	System.out.println();
